@@ -6,19 +6,63 @@ body{
         line-height: 26px;
         color: #212121;
 }
-button :hover{
-    cursor: pointer;
-     color: #2196F3;
+button {
+    font-size: 16px;
+    font-weight: 500;
+    width: 120px;
+    height: 20px;
+    color: white;
+    background-color: #000;
+    border-radius: 4px;
 }
-.Link{
+.button-1:hover{
+
+    cursor: pointer;
+    background-color: rgb(9, 94, 190);
+}
+.button-1:active{
+    background-color: #2196F3;
+}
+
+
+.webstudio{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 26px;
+    Width:145px; 
+    Height: 31px; 
+    Top: 24px; 
+    Left: 215px;
+    color: #2196F3;
+}
+.link{
+    font-size: 14px;
+    font-weight: 500;
     color: #000;
     text-decoration-line: none;
     
 }
-.Link:hover{
+.link:hover{
     color: #2196F3;
-    text-decoration-line: none;}
+    text-decoration-line: none;
+}
 
 .Contactos{
     color: #000;
+}
+
+.p-1{
+    font-size: 18px;
+    font-weight: 700;
+}
+.p-2{
+    font-size: 16px;
+    font-weight: 400
+}
+.footer{
+    font-size: 14px;
+    font-weight: 400;
+}
+.ul{
+    list-style: none;
 }
