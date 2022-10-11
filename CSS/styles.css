@@ -1,68 +1,100 @@
-body{
-    font-family: 'Roboto''sans-serif';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        color: #212121;
-}
-button {
-    font-size: 16px;
+body {
+    font-family: 'Roboto', 'sans-serif';
+    font-style: normal;
     font-weight: 500;
-    width: 120px;
-    height: 20px;
-    color: white;
-    background-color: #000;
-    border-radius: 4px;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--color-body);
 }
-.button-1:hover{
+
+.root {
+    --color-buttonhover: #2196F3;
+    --color-body: #212121;
+}
+
+.button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+
+
+}
+
+.button:hover {
 
     cursor: pointer;
-    background-color: rgb(9, 94, 190);
+    background-color:var(--color-hover);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+
+
 }
-.button-1:active{
-    background-color: #2196F3;
+
+.button:active {
+    background-color: cornflowerblue;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
 }
 
 
-.webstudio{
+.webstudio {
     font-family: 'Raleway';
     font-style: normal;
     font-size: 26px;
-    Width:145px; 
-    Height: 31px; 
-    Top: 24px; 
+    Width: 145px;
+    Height: 31px;
+    Top: 24px;
     Left: 215px;
     color: #2196F3;
 }
-.link{
-    font-size: 14px;
-    font-weight: 500;
+
+.link {
     color: #000;
     text-decoration-line: none;
-    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
 }
-.link:hover{
+
+.link:hover {
     color: #2196F3;
     text-decoration-line: none;
 }
 
-.Contactos{
+.Contactos {
     color: #000;
 }
 
-.p-1{
+.p-1 {
     font-size: 18px;
     font-weight: 700;
 }
-.p-2{
+
+.p-2 {
     font-size: 16px;
     font-weight: 400
 }
-.footer{
+
+.footer {
     font-size: 14px;
     font-weight: 400;
 }
-.ul{
+
+.ul {
     list-style: none;
 }
