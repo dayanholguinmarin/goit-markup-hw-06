@@ -1,3 +1,10 @@
+
+:root {
+    --color-button-hover: #2196F3;
+    --color-body: #212121;
+    --color-white: #fff;
+}
+
 body {
     font-family: 'Roboto', 'sans-serif';
     font-style: normal;
@@ -7,44 +14,32 @@ body {
     color: var(--color-body);
 }
 
-.root {
-    --color-buttonhover: #2196F3;
-    --color-body: #212121;
-}
+
 
 .button {
-    font-family: 'Roboto';
-    font-style: normal;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    text-align: center;
     letter-spacing: 0.03em;
-    
-
-
+    padding: 6px 24px;
+    border-radius: 4px;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
 
     cursor: pointer;
-    background-color:var(--color-hover);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-
-
+    background-color: var(--color-button-hover);
+    color: var(--color-white);
+   
 }
+
 
 .button:active {
     background-color: cornflowerblue;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
 }
 
 
