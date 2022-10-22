@@ -137,6 +137,8 @@ header > .container {
 }
 
 h1 {
+  width: 696px;
+  height: 120px;
   text-transform: uppercase;
   font-weight: 900px;
   font-size: 44px;
@@ -151,8 +153,8 @@ h1 {
   cursor: pointer;
   justify-content: center;
   align-items: center;
-  width: 230px;
-  height: 38px;
+  width: 261px;
+  height: 50px;
   color: var(--color-body);
   padding: 6px 24px;
   border-radius: 4px;
@@ -165,11 +167,9 @@ h1 {
   align-items: center;
   justify-content: space-between;
 }
-.metas p {
-  height: 75px;
-  width: 270px;
+.metas {
+  margin: 95px auto;
 }
-
 h2 {
   text-transform: capitalize;
   font-weight: 700;
@@ -184,15 +184,19 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
+
 .container-equipo1 {
   background-color: #f5f4fa;
   height: 648px;
 }
+
 .container-equipo2 {
   display: flex;
   justify-content: space-between;
 }
-
+.h2-1 {
+  padding-top: 94px;
+}
 .container-equipo2 div {
   text-align: center;
   width: 270px;
@@ -201,6 +205,7 @@ h2 {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  padding-top: 50px;
 }
 
 footer {
@@ -211,7 +216,8 @@ footer {
 .address {
   color: var(--color-white);
   width: 231px;
-  height: 21px;
+  height: 252px;
+  padding-top: 10px;
 }
 .p {
   color: #757575;
@@ -224,18 +230,19 @@ footer {
   justify-content: center;
 }
 .button1 {
-  margin: 112px 8px;
+  margin: 30px 8px;
 }
 .container-servicios {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .container-servicios div {
   text-align: center;
   width: 370px;
   height: 404px;
-  margin-top: 30px;
-  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
