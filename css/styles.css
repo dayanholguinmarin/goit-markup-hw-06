@@ -87,8 +87,8 @@ body {
 }
 
 .p-1 {
-  font-size: 18px;
-  font-weight: 700;
+  width: 270px;
+  height: 16px;
 }
 
 .p-2 {
@@ -145,14 +145,16 @@ h1 {
   text-align: center;
   letter-spacing: 0.06em;
   justify-content: center;
+  width: 696px;
+  height: 120px;
 }
 
 .button-negocio {
   cursor: pointer;
   justify-content: center;
   align-items: center;
-  width: 230px;
-  height: 38px;
+  width: 261px;
+  height: 50px;
   color: var(--color-body);
   padding: 6px 24px;
   border-radius: 4px;
@@ -163,11 +165,9 @@ h1 {
 .container-metas {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
-.metas p {
-  height: 75px;
-  width: 270px;
+.metas {
+  margin-top: 95px;
 }
 
 h2 {
@@ -179,14 +179,18 @@ h2 {
   letter-spacing: 0.03em;
   margin-top: 94px;
   color: #212121;
+  margin-top: 94px auto;
 }
 .img1 {
   display: flex;
   justify-content: space-between;
+  margin-top: 55px;
+  margin-bottom: 94px;
 }
 .container-equipo1 {
   background-color: #f5f4fa;
   height: 648px;
+  padding-top: 25px;
 }
 .container-equipo2 {
   display: flex;
@@ -212,11 +216,11 @@ footer {
   color: var(--color-white);
   width: 231px;
   height: 21px;
+  padding-top: 10px;
 }
 .p {
   color: #757575;
 }
-
 /*aqui comienza portafolio*/
 
 .container-button {
@@ -224,14 +228,15 @@ footer {
   justify-content: center;
 }
 .button1 {
-  margin: 112px 8px;
+  margin-top: 112px;
+  margin-right: 12px;
 }
 .container-servicios {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 82px;
 }
 .container-servicios div {
-  text-align: center;
   width: 370px;
   height: 404px;
   margin-top: 30px;
