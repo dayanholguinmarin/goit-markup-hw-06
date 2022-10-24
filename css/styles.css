@@ -212,7 +212,7 @@ footer {
   height: 252px;
 }
 
-.address {
+.container-address {
   color: var(--color-white);
   width: 231px;
   height: 21px;
