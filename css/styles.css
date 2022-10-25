@@ -19,6 +19,7 @@ body {
 
 .button {
   cursor: pointer;
+  border: 0px;
   border-radius: 4px;
   background-color: #f5f4fa;
 }
@@ -47,10 +48,10 @@ body {
   color: var(--color-white);
 }
 
-.button,
-.header-link:active {
+.button:active {
   font-weight: 700;
   font-size: 16px;
+  background-color: #42a6f9;
 }
 
 .webstudio {
