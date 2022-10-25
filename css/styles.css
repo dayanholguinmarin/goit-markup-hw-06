@@ -184,7 +184,7 @@ h1 {
 
 .container-metas {
   display: flex;
-  align-items: center;
+  align-content: center;
 }
 .metas {
   margin-top: 95px;
