@@ -19,13 +19,23 @@ body {
 
 .button {
   cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: 0.03em;
-  padding: 6px 24px;
   border-radius: 4px;
   background-color: #f5f4fa;
+}
+.a {
+  padding: 6px 18px;
+}
+.b {
+  padding: 6px 24px;
+}
+.c {
+  padding: 6px 24px;
+}
+.d {
+  padding: 6px 26px;
+}
+.e {
+  padding: 6px 26px;
 }
 
 .button:hover {
@@ -96,6 +106,9 @@ body {
   font-weight: 400;
   color: #757575;
 }
+.p-3 {
+  padding-left: 24px;
+}
 
 .footer {
   font-size: 14px;
@@ -107,6 +120,9 @@ ul li {
 }
 
 /*aqui comienza index.html*/
+header {
+  border: 1px solid #ececec;
+}
 
 header > .container {
   margin: 0 auto;
@@ -153,13 +169,16 @@ h1 {
   cursor: pointer;
   justify-content: center;
   align-items: center;
-  width: 261px;
+  width: 300px;
   height: 50px;
-  color: var(--color-body);
-  padding: 6px 24px;
+  color: #fff;
+  padding: 10px 32px;
   border-radius: 4px;
-  background-color: #f5f4fa;
-  font-weight: 500px;
+  background-color: #2196f3;
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
 }
 
 .container-metas {
@@ -213,10 +232,13 @@ footer {
 }
 
 .container-address {
+  align-content: center;
   color: var(--color-white);
   width: 231px;
   height: 21px;
   padding-top: 10px;
+  font-family: "Roboto", "sans-serif";
+  font-style: normal;
 }
 .p {
   color: #757575;
@@ -229,7 +251,8 @@ footer {
 }
 .button1 {
   margin-top: 112px;
-  margin-right: 12px;
+  margin-right: 4px;
+  margin-left: 4px;
 }
 .container-servicios {
   display: flex;
