@@ -237,9 +237,14 @@ footer {
   color: var(--color-white);
   width: 231px;
   height: 21px;
-  padding-top: 10px;
+  padding-top: 60px;
   font-family: "Roboto", "sans-serif";
   font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.container-address > p {
+  margin: 0%;
 }
 .p {
   color: #757575;
