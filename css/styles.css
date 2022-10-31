@@ -75,7 +75,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.header-link1 {
+.header-link-1 {
   text-decoration: none;
   color: #757575;
   font-style: normal;
@@ -83,13 +83,14 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  margin-right: 20px;
 }
 
 .header-link:hover {
   color: var(--color-button-hover);
   text-decoration-line: none;
 }
-.header-link1:hover {
+.header-link-1:hover {
   color: var(--color-button-hover);
 }
 
@@ -126,7 +127,7 @@ header {
 }
 
 header > .container {
-  margin: 0 auto;
+  margin: 0% auto;
 }
 .container-header {
   display: flex;
@@ -134,14 +135,19 @@ header > .container {
   justify-content: space-between;
   height: 80px;
 }
-.header-link {
-  margin-right: 50px;
+.email-number {
+  display: flex;
+  justify-content: space-between;
 }
+
 .active:active {
   color: #2196f3;
 }
-.header-link1 {
+.header-link {
   margin-right: 50px;
+}
+.header-link1 {
+  margin-right: 25px;
 }
 
 .container-negocio {
@@ -182,16 +188,7 @@ h1 {
   letter-spacing: 0.06em;
 }
 
-.container-metas {
-  display: flex;
-  align-content: center;
-}
-.metas {
-  margin-top: 95px;
-}
-
 h2 {
-  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -201,26 +198,43 @@ h2 {
   color: #212121;
   margin-top: 94px auto;
 }
-.img1 {
+.img-1 {
   display: flex;
   justify-content: space-between;
   margin-top: 55px;
   margin-bottom: 94px;
 }
-.container-equipo1 {
+.img-2 {
+  position: relative;
+}
+.img-3 {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  opacity: 20px;
+  bottom: 5px;
+  padding: 27px 70px;
+  color: #ffffff;
+}
+.img-2 > .img-3a {
+  padding: 27px 90px;
+}
+.container-equipo-1 {
   background-color: #f5f4fa;
   height: 648px;
-  padding-top: 25px;
+  padding: 5px 96px;
 }
-.container-equipo2 {
+.container-equipo-2 {
   display: flex;
   justify-content: space-between;
+  margin: 0%;
 }
 
-.container-equipo2 div {
+.container-equipo-2 div {
   text-align: center;
   width: 270px;
-  height: 368px;
+  height: 428px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -240,7 +254,7 @@ footer {
   padding-top: 60px;
   font-family: "Roboto", "sans-serif";
   font-style: normal;
-  line-height: 24px;
+
   letter-spacing: 0.03em;
 }
 .container-address > p {
@@ -274,4 +288,111 @@ footer {
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+/*aqui comienza las clases de iconos*/
+
+.nav-icons-1 {
+  display: flex;
+}
+.nav-icons-2 {
+  width: 20px;
+  height: 16px;
+  position: relative;
+  top: 3px;
+  right: 10px;
+}
+.header-link-1:hover .nav-icons-2 {
+  color: #2196f3;
+  fill: #2196f3;
+}
+.container-metas {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-top: 82px;
+  margin-bottom: 280px;
+}
+
+.metas-icons-1 {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.metas-icons-1 > .metas-icons-c {
+  margin-top: 40px;
+}
+
+.metas-icons-a {
+  width: 65.32px;
+  height: 70px;
+}
+.metas-icons-b {
+  width: 66.96px;
+  height: 70px;
+}
+.metas-icons-c {
+  width: 70px;
+  height: 53.69px;
+}
+.metas-icons-d {
+  width: 54.83px;
+  height: 60.66px;
+}
+.move {
+  margin: 30px 102.34px;
+}
+
+.container-equipo-3 > .circulo {
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding: 12px 12px;
+  display: inline-block;
+  margin-right: 10px;
+  box-shadow: none;
+}
+.circulo:hover .icons-equipo {
+  background-color: #2196f3;
+  fill: white;
+}
+
+.icons-equipo {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.clientes-icons {
+  width: 41px;
+  height: 46px;
+}
+.circulo-2 {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  border-radius: 24px;
+  padding: 12px 12px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.container-encuentrenos {
+  margin-left: 300px;
+  padding-bottom: 0px;
+}
+.container-encuentrenos > p {
+  margin-left: 15px;
+  color: var(--color-white);
+}
+
+.icons-footer {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+.circulo-2:hover {
+  background-color: #2196f3;
 }
