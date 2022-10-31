@@ -108,6 +108,7 @@ body {
   font-weight: 400;
   color: #757575;
 }
+
 .p-3 {
   padding-left: 24px;
 }
@@ -151,8 +152,12 @@ header > .container {
 }
 
 .container-negocio {
-  background-color: #2f303a;
+  background-image: url(/images/principal.png);
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  background-position: center;
   height: 600px;
+
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -194,10 +199,10 @@ h2 {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 94px;
   color: #212121;
-  margin-top: 94px auto;
+  margin-top: 60px;
 }
+
 .img-1 {
   display: flex;
   justify-content: space-between;
@@ -229,6 +234,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   margin: 0%;
+  padding-top: 20px;
 }
 
 .container-equipo-2 div {
@@ -269,10 +275,14 @@ footer {
   display: flex;
   justify-content: center;
 }
-.button1 {
+.button-1 {
   margin-top: 112px;
   margin-right: 4px;
   margin-left: 4px;
+}
+.button-1:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .container-servicios {
   display: flex;
@@ -286,6 +296,8 @@ footer {
   margin-right: 30px;
   background: #ffffff;
   border: 1px solid #eeeeee;
+}
+.servicios-div:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -320,6 +332,7 @@ footer {
   background: #f5f4fa;
   border-radius: 4px;
 }
+
 .metas-icons-1 > .metas-icons-c {
   margin-top: 40px;
 }
@@ -393,6 +406,30 @@ footer {
   height: 20px;
   fill: #ffffff;
 }
+.p-footer {
+  margin-top: 5px;
+}
 .circulo-2:hover {
   background-color: #2196f3;
+}
+.clientes-h2 {
+  margin-top: 60px;
+}
+.clientes {
+  display: flex;
+  justify-content: space-between;
+}
+.caja-icons {
+  width: 170px;
+  height: 81px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 150px;
+}
+.clientes-icons {
+  background-color: #2196f3;
+
+  width: 106px;
+  height: 52px;
 }
