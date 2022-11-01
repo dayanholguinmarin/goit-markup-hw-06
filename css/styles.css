@@ -38,13 +38,12 @@ body {
 .e {
   padding: 6px 26px;
 }
-
 .button:hover {
   background-color: var(--color-button-hover);
   color: var(--color-white);
 }
 .button-negocio:hover {
-  background-color: var(--color-button-hover);
+  background-color: #0488f4;
   color: var(--color-white);
 }
 
@@ -154,10 +153,9 @@ header > .container {
 .container-negocio {
   background-image: url(/images/principal.png);
   background-repeat: no-repeat;
-  background-size: 1600px;
-  background-position: center;
+  background-size: cover;
+  background-position: center center;
   height: 600px;
-
   display: flex;
   justify-content: center;
   flex-direction: column;
