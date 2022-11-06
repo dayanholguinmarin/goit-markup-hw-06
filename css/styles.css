@@ -102,6 +102,8 @@ body {
 .p-1 {
   width: 270px;
   height: 16px;
+  line-height: 36px;
+  font-weight: 700;
 }
 
 .p-2 {
@@ -288,22 +290,48 @@ footer {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.container-servicios {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 82px;
+.flex-servicios {
+  display: inline-block;
+  justify-content: space-between;
 }
-.container-servicios div {
+.card-servicios {
   width: 370px;
   height: 404px;
-  margin-top: 30px;
-  margin-right: 30px;
+  margin: 20px 10px 10px 10px;
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
-.servicios-div:hover {
+.card-img {
+  overflow: hidden;
+  position: relative;
+  width: 370px;
+  height: 294px;
+}
+.card-animacion {
+  width: 370px;
+  height: 294px;
+  background: rgba(33, 150, 243, 0.9);
+  position: absolute;
+  top: 0px;
+  padding: 40px 24px;
+  transform: translateY(105%);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms ease;
+}
+
+.card-servicios:hover .card-animacion {
+  transform: translateY(0%);
+}
+.card-servicios:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.animacion-p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
 /*aqui comienza las clases de iconos*/
