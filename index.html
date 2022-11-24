@@ -368,7 +368,7 @@
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
         
-        <button class="modal-button" data-modal-close="">
+        <button class="modal-circle-button" data-modal-close="">
             <svg class="button-modal-container"> 
                 <use href="./images/icons.svg#boton-cerrar"></use>
             </svg>
@@ -376,7 +376,7 @@
         
         <h3>Deje sus datos, nos contactaremos con usted</h3>
         <form>
-            <label for="imput-name">Nombre</label>
+            <label for="imput-name"><p class="p-4">Nombre</p></label>
             <div class="container-form-input">
                 <input class="form-input" type="text" name="name" id="imput-name">
                 <svg class="icon-modal">
@@ -388,7 +388,7 @@
 
 
         <form>
-            <label for="imput-name">Telefono</label>
+            <label for="imput-name"><p class="p-4">Telefono</p></label>
             <div class="container-form-input">
                 <input class="form-input" type="text" name="name" id="imput-name">
                 <svg class="icon-modal">
@@ -400,9 +400,9 @@
 
 
         <form>
-            <label for="imput-name">E-mail</label>
+            <label for="imput-email"><p class="p-4">E-mail</p></label>
             <div class="container-form-input">
-                <input class="form-input" type="text" name="name" id="imput-name">
+                <input class="form-input" type="email" name="email" id="imput-email">
                 <svg class="icon-modal">
                     <use href="./images/icons.svg#e-mail"></use>
                 </svg>
@@ -412,18 +412,18 @@
 
 
         <form>
-            <label for="imput-feedback">Comentarios</label>
+            <label for="imput-feedback"><p class="p-4">Comentarios</p></label>
             <div class="container-form-input">
-                <textarea class="input-feedback" name="feedback" placeholder="introduce el texto" id="imput-feedback" cols="30" rows="10"></textarea>
+                <textarea class="input-feedback" name="feedback" placeholder="introduzca el texto" id="imput-feedback" cols="30" rows="10"></textarea>
                 
             </div>
         </form>
 
 
         <form>
-            <label for="imput-checkbox">
+            <label  for="imput-checkbox">
                 <input type="checkbox" id="imput-checkbox" >
-                Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones
+                <p class="p-5">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</p>
             </label>
             
         </form>
