@@ -275,37 +275,37 @@
             <div class="clientes">
                 <div class="caja-icons">
                     <svg class="clientes-icons">
-                        <use href="./images/iconos-2.svg#icon-Logo-1"></use>
+                        <use href="./images/icons-2.svg#icon-Logo-1"></use>
                     </svg>
                 </div>
 
                 <div class="caja-icons">
                     <svg class="clientes-icons">
-                        <use href="./images/iconos-2.svg#icon-Logo-2"></use>
+                        <use href="./images/icons-2.svg#icon-Logo-2"></use>
                     </svg>
                 </div>
 
                 <div class="caja-icons">
                     <svg class="clientes-icons">
-                        <use href="./images/iconos-2.svg#icon-Logo-3"></use>
+                        <use href="./images/icons-2.svg#icon-Logo-3"></use>
                     </svg>
                 </div>
 
                 <div class="caja-icons">
                     <svg class="clientes-icons">
-                        <use href="./images/iconos-2.svg#icon-Logo-4"></use>
+                        <use href="./images/icons-2.svg#icon-Logo-4"></use>
                     </svg>
                 </div>
 
                 <div class="caja-icons">
                     <svg class="clientes-icons">
-                        <use href="./images/iconos-2.svg#icon-Logo-5"></use>
+                        <use href="./images/icons-2.svg#icon-Logo-5"></use>
                     </svg>
                 </div>
 
                 <div class="caja-icons">
                     <svg class="clientes-icons">
-                        <use href="./images/iconos-2.svg#icon-Logo-6"></use>
+                        <use href="./images/icons-2.svg#icon-Logo-6"></use>
                     </svg>
                 </div>
             </div>
@@ -378,7 +378,7 @@
         <form>
             <label for="imput-name"><p class="p-4">Nombre</p></label>
             <div class="container-form-input">
-                <input class="form-input" type="text" name="name" id="imput-name">
+                <input class="form-input" type="text" name="name" id="imput-name" required >
                 <svg class="icon-modal">
                     <use href="./images/icons.svg#icon-persona"></use>
                 </svg>
@@ -390,7 +390,7 @@
         <form>
             <label for="imput-name"><p class="p-4">Telefono</p></label>
             <div class="container-form-input">
-                <input class="form-input" type="text" name="name" id="imput-name">
+                <input class="form-input" type="text" name="name" id="imput-name" required >
                 <svg class="icon-modal">
                     <use href="./images/icons.svg#tel"></use>
                 </svg>
@@ -402,7 +402,7 @@
         <form>
             <label for="imput-email"><p class="p-4">E-mail</p></label>
             <div class="container-form-input">
-                <input class="form-input" type="email" name="email" id="imput-email">
+                <input class="form-input" type="email" name="email" id="imput-email" required >
                 <svg class="icon-modal">
                     <use href="./images/icons.svg#e-mail"></use>
                 </svg>
@@ -414,16 +414,19 @@
         <form>
             <label for="imput-feedback"><p class="p-4">Comentarios</p></label>
             <div class="container-form-input">
-                <textarea class="input-feedback" name="feedback" placeholder="introduzca el texto" id="imput-feedback" cols="30" rows="10"></textarea>
+                <textarea class="input-feedback" name="feedback" placeholder="introduzca el texto" id="imput-feedback" cols="30" rows="10" required ></textarea>
                 
             </div>
         </form>
-z
+
 
         <form>
             <label  for="imput-checkbox">
-                <input type="checkbox" id="imput-checkbox" >
-                <p class="p-5">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</p>
+                <div class="container__checkbox">
+            <input class="ckeckbox-input" type="checkbox" id="imput-checkbox">
+            <p class="p-5 ckeckbox-p" >Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</p>
+                </div>
+                
             </label>
             
         </form>
